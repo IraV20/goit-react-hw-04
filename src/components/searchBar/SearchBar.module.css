@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 36px;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.form input {
+  width: 320px;
+}
+
+.icon {
+  position: absolute;
+  left: 4px;
+  color: #808080;
+}
+
+.inputContainer:hover .icon {
+  color: #259b23; /* змінюємо колір іконки при наведенні на контейнер */
+}
