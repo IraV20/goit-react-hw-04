@@ -11,6 +11,7 @@ export const getImages = async (value, page) => {
       query: value,
       page: page,
       per_page: 12,
+      orientation: "squarish",
     },
   });
   return res.data.results;
